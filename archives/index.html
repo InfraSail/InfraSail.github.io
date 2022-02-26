@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta name="author" content="John Doe">
-  <link rel="icon" href="/hexo.png">
-  <title>Hexo</title>
+  <link rel="icon" href="/logo.png">
+  <title>InfraSail</title>
   <meta name="description" content="">
-  <link rel="alternate" type="application/rss+xml" title="Hexo" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="InfraSail" href="/atom.xml">
   <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/main.css">
@@ -39,17 +39,36 @@
       </div>
     </div>
   </nav>
-  <header class="header-section">
-    <div class="intro-header no-img"></div>
+  <div id="header-big-imgs" data-num-img='2' data-img-src-1="/bigimgs/cultural-revolution.jpg"
+    data-img-src-2="/bigimgs/la-commune-de-paris.jpg" data-img-src-3="/bigimgs/cuba-may-day.jpg"
+    data-img-src-4="/bigimgs/kke-banners.jpg"></div>
+  <header class="header-section has-img">
+    <div class="intro-header big-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              <h1>InfraSail</h1>
+              <hr class="small"><span class="page-subheading">A non-profit organization keen on infrastructure software
+                development.</span>
+            </div>
+          </div>
+        </div>
+      </div><span class="img-desc"></span>
+    </div>
   </header>
-  <div class="container">
+  <div role="main" class="container">
     <div class="row">
-      <div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
-        <ul class="archive-list">
-          <h2>2022</h2>
-          <li class="col-lg-offset-1 col-md-offset-1"><span class="post-meta">Feb 23</span><a
-              href="/2022/02/23/hello-world/" class="post-title">Hello World</a></li>
-        </ul>
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="posts-list">
+          <article class="post-preview"><a href="/2022/02/23/hello-world/">
+              <h2 class="post-title">Hello World</h2>
+            </a>
+            <p class="post-meta">Posted on Feb 23 2022</p>
+            <div class="post-entry"></div><a href="/2022/02/23/hello-world/" class="post-read-more">[Read More]</a>
+          </article>
+        </div>
+        <ul class="pager main-pager"></ul>
       </div>
     </div>
   </div>
